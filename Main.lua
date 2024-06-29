@@ -1,5 +1,6 @@
 local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/dvrk666/Private-menu/main/source.lua'))()
 local Aimbot = loadstring(game:HttpGet("https://raw.githubusercontent.com/dvrk666/Private-menu/main/Aimbot.lua"))()
+Aimbot.Load()
  
 local Window = Rayfield:CreateWindow({
     Name = "A|MZ PRIVATE CHEAT",
