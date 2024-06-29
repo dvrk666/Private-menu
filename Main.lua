@@ -1,5 +1,5 @@
 local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/dvrk666/Private-menu/main/source.lua'))()
-local Aimbot = loadstring(game:HttpGet("https://raw.githubusercontent.com/dvrk666/Private-menu/main/Aimbot.lua"))()
+local Aimbot = loadstring(game:HttpGet("https://raw.githubusercontent.com/Exunys/Aimbot-V3/main/src/Aimbot.lua"))()
 Aimbot.Load()
 
  
