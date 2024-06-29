@@ -59,7 +59,7 @@ local Window = Rayfield:CreateWindow({
  })
 
 local Button = MainTab:CreateButton({
-    Name = "Aimbot CS (mouse4)",
+    Name = "Aimbot CS",
     Callback = function()
         loadstring(game:HttpGet("https://pastebin.com/raw/dqPtv0fG"))()
     end,
@@ -390,3 +390,11 @@ local Button = MainTab:CreateButton({
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ic3w0lf22/Unnamed-ESP/master/UnnamedESP.lua"))()
     end,
  })
+
+local Button = MainTab:CreateButton({
+    Name = "Admin Menu",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/dvrk666/Private-menu/main/Admin.lua"))()
+    end,
+ })
+
