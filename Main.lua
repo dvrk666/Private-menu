@@ -47,7 +47,7 @@ local Window = Rayfield:CreateWindow({
  local Button = MainTab:CreateButton({
     Name = "Aimbot Enemy",
     Callback = function()
-        loadstring(game:HttpGet("https://pastebin.com/raw/Q25FD7RA"))()
+        loadstring(game:HttpGet("https://pastebin.com/raw/yzS9PVS2"))()
     end,
  })
  
