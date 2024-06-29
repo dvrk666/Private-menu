@@ -26,7 +26,7 @@ local Window = Rayfield:CreateWindow({
     }
  })
  
- local MainTab = Window:CreateTab("This hack is Private", nill)
+ local MainTab = Window:CreateTab("Fick Deine OMA", nill)
  local MainSection = MainTab:CreateSection("Main")
  
  Rayfield:Notify({
