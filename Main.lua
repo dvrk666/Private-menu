@@ -58,6 +58,13 @@ local Window = Rayfield:CreateWindow({
     end,
  })
 
+local Button = MainTab:CreateButton({
+    Name = "Aimbot CS (mouse4)",
+    Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/dqPtv0fG"))()
+    end,
+ })
+
  local Button = MainTab:CreateButton({
     Name = "Box ESP",
     Callback = function()
